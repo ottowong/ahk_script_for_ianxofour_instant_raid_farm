@@ -1,7 +1,7 @@
 ; Set initial state to off
 shouldStop := false
 
-; Toggle loop on/off when 'o' is pressed
+; Start loop when 'o' is pressed
 o::
 	shouldStop:= false
 	; Infinite loop until shouldStop is set
@@ -63,6 +63,7 @@ o::
 			Sleep, 1000
 		}
 	}
-	
+
+; If 'p' is pressed, set the flag for stopping
 p::
 	shouldStop := true
