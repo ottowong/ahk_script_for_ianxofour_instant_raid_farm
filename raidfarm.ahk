@@ -8,7 +8,7 @@ o::
 	while (!shouldStop) {
 		; move into position for lever
 		Send, {a down}{s down}
-		Sleep, 2000
+		Sleep, 1000
 		Send, {a up}{s up}
 		
 		; right click lever to turn off water
@@ -16,16 +16,16 @@ o::
 		
 		; jump down
 		Send, {w down}{a down}
-		Sleep, 2000
+		Sleep, 1000
 		Send, {a up}{w up}
 		Send, {d down}
-		Sleep, 1000
+		Sleep, 500
 		Send, {d up}
 		Sleep, 1000
 		
 		; go into bubble column
 		Send, {s down}{d down}
-		Sleep, 6000
+		Sleep, 7000
 		Send, {s up}{d up}
 		
 		; eat
